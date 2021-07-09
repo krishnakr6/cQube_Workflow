@@ -21,17 +21,3 @@ NIFI_INPUT_OUTPUT_PORTS = {
 
 
 }
-
-# DB_USER = postgres
-# DB_NAME = cqubedev
-# EMISSION_DB_NAME = cqube_emission_db
-# DB_PWD = psql
-# DB_CONNECTION_URL = jdbc:postgresql://localhost:5432/
-# DB_DRIVER_CLASS_NAME = org.postgresql.Driver
-# DB_DRIVER_DIR = /home/ubuntu/cQube/development/nifi/jars/postgresql-42.2.10.jar
-# S3_ACCESS_KEY =
-# S3_SECRET_KEY =
-# S3_EMISSION_BUCKET = cqube-gj-raw
-# S3_INPUT_BUCKET = cqube-gj-input
-# S3_OUTPUT_BUCKET =  cqube-gj-output
-# NIFI_ERROR_DIR = /opt/nifi/Processing_errors
