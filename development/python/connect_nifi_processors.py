@@ -158,14 +158,13 @@ def connect_output_input_port(source_processor_group, destination_processor_grou
             if 'cQube_data_storage' in source_processor_group:
                 params = params[source_processor_group]
                 source_processor_group = destination_processor_group
-
+                
+            # iterate over the configured ports from params
             for ports in params[source_processor_group]:
                 # port details of processor group
                 for i in pg_source_details.json()['processGroupFlow']['flow']['outputPorts']:
                     # if output port name match, assign the ID,parentGroupID
-                    # if i['component']['name'] == ports['OUTPUT_PORT']:
-                    if ports['OUTPUT_PORT'] in i['component']['name']:
-                        
+                    if i['component']['name'] == ports['OUTPUT_PORT']:                        
                         connect_port_body['component']['source']['id'] = i['component']['id']
                         connect_port_body['component']['source']['groupId'] = i['component']['parentGroupId']
 
@@ -180,7 +179,6 @@ def connect_output_input_port(source_processor_group, destination_processor_grou
                                 if connect_port_res.status_code == 201:
                                     logging.info(
                                         f"Successfully Connection done between {i['component']['name']} and {input_port_name['component']['name']} port")
-                                    return True
 
                                 else:
                                     return connect_port_res.text
@@ -198,14 +196,11 @@ if __name__ == "__main__":
 
     logging.info('Connection between PORTS started...')
     res_1 = connect_output_input_port(source_processor_group,destination_processor_group)
-    print("after one ..................ress_1= ",res_1)
-    # res_2 = connect_output_input_port(destination_processor_group,source_processor_group)
-    # print("\nafter one ..................ress_2= ",res_2)
-    # if res_1 and res_2:
-    #     logging.info('Successfully Connection done between PORTS.')
-        
+    res_2 = connect_output_input_port(destination_processor_group,source_processor_group)
+    logging.info('Successfully Connection done between PORTS.')
     
     # create dummy connection for un selection data source
-    # dummy_connection_creator(source_processor_group)
+    dummy_connection_creator(source_processor_group)
+    logging.info('Successfully completed all the connections between processor groups')
 
     
