@@ -1111,6 +1111,31 @@
                     <zIndex>0</zIndex>
                 </connections>
                 <connections>
+                    <id>15ed6795-b1d1-3d3d-0000-000000000000</id>
+                    <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
+                        <id>00ecbe33-0339-3aab-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>local</selectedRelationships>
+                    <source>
+                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
+                        <id>57cc1aba-28c3-3c9a-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
                     <id>164e6735-3b38-3ef4-0000-000000000000</id>
                     <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>4 GB</backPressureDataSizeThreshold>
@@ -2051,6 +2076,31 @@
                     <source>
                         <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
                         <id>6d3a1614-c104-3910-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>2c119e4f-ade8-33b5-0000-000000000000</id>
+                    <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
+                        <id>30273181-84a4-3652-0000-000000000000</id>
+                        <type>OUTPUT_PORT</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
+                        <id>00ecbe33-0339-3aab-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
@@ -4669,8 +4719,8 @@
                         <y>-2712.0</y>
                     </bends>
                     <bends>
-                        <x>7376.0</x>
-                        <y>-2712.0</y>
+                        <x>7440.0</x>
+                        <y>-2696.0</y>
                     </bends>
                     <destination>
                         <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
@@ -5175,30 +5225,6 @@
                         <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
                         <id>57e8f69c-7bc3-3952-0000-000000000000</id>
                         <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
-                    <id>69812ee5-b1c6-3443-0000-000000000000</id>
-                    <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
-                        <id>00ecbe33-0339-3aab-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <source>
-                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
-                        <id>27e9481a-d0cb-3960-0000-000000000000</id>
-                        <type>INPUT_PORT</type>
                     </source>
                     <zIndex>0</zIndex>
                 </connections>
@@ -9589,31 +9615,6 @@
                     <source>
                         <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
                         <id>a426df4c-8937-38a3-0000-000000000000</id>
-                        <type>PROCESSOR</type>
-                    </source>
-                    <zIndex>0</zIndex>
-                </connections>
-                <connections>
-                    <id>b808df36-9a6b-39a4-0000-000000000000</id>
-                    <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
-                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-                    <destination>
-                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
-                        <id>26f9bb4c-3d00-3ac6-0000-000000000000</id>
-                        <type>OUTPUT_PORT</type>
-                    </destination>
-                    <flowFileExpiration>0 sec</flowFileExpiration>
-                    <labelIndex>1</labelIndex>
-                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-                    <name></name>
-                    <selectedRelationships>success</selectedRelationships>
-                    <source>
-                        <groupId>874f13f6-6b83-3976-0000-000000000000</groupId>
-                        <id>00ecbe33-0339-3aab-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
@@ -15629,19 +15630,6 @@
                     <type>INPUT_PORT</type>
                 </inputPorts>
                 <inputPorts>
-                    <id>27e9481a-d0cb-3960-0000-000000000000</id>
-                    <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>21960.0</x>
-                        <y>-1328.0</y>
-                    </position>
-                    <comments></comments>
-                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                    <name>diksha_emission_etb_ip_DS</name>
-                    <state>STOPPED</state>
-                    <type>INPUT_PORT</type>
-                </inputPorts>
-                <inputPorts>
                     <id>2b45bf76-8289-395b-0000-000000000000</id>
                     <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
                     <position>
@@ -19145,19 +19133,6 @@
                     <type>OUTPUT_PORT</type>
                 </outputPorts>
                 <outputPorts>
-                    <id>26f9bb4c-3d00-3ac6-0000-000000000000</id>
-                    <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
-                    <position>
-                        <x>23064.0</x>
-                        <y>-1320.0</y>
-                    </position>
-                    <comments></comments>
-                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                    <name>diksha_emission_etb_op_DS</name>
-                    <state>STOPPED</state>
-                    <type>OUTPUT_PORT</type>
-                </outputPorts>
-                <outputPorts>
                     <id>30273181-84a4-3652-0000-000000000000</id>
                     <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
                     <position>
@@ -19629,8 +19604,8 @@ ${filename:startsWith('school_management'):ifElse('log_summary_school_management
                     <id>00ecbe33-0339-3aab-0000-000000000000</id>
                     <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
                     <position>
-                        <x>22456.0</x>
-                        <y>-1368.0</y>
+                        <x>22416.0</x>
+                        <y>-1376.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -25592,7 +25567,7 @@ ${file_type:startsWith('log_summary'):and(${filename:startsWith('inspection_mast
                     <id>1d8086a0-c88a-32c6-0000-000000000000</id>
                     <parentGroupId>874f13f6-6b83-3976-0000-000000000000</parentGroupId>
                     <position>
-                        <x>21928.0</x>
+                        <x>21920.0</x>
                         <y>-1120.0</y>
                     </position>
                     <bundle>
@@ -28701,6 +28676,12 @@ ${query_type:startsWith('stud_att_management_category_school_overall'):ifElse('a
     <name>path</name>
 </value>
                             </entry>
+                            <entry>
+<key>source</key>
+<value>
+    <name>source</name>
+</value>
+                            </entry>
                         </descriptors>
                         <executionNode>ALL</executionNode>
                         <lossTolerant>false</lossTolerant>
@@ -28735,6 +28716,10 @@ ${query_type:startsWith('stud_att_management_category_school_overall'):ifElse('a
                             <entry>
 <key>path</key>
 <value>diksha/</value>
+                            </entry>
+                            <entry>
+<key>source</key>
+<value>#{data_storage_type}</value>
                             </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
@@ -43020,6 +43005,12 @@ ${filename:startsWith('sch_safety')}
 </value>
                             </entry>
                             <entry>
+<key>local</key>
+<value>
+    <name>local</name>
+</value>
+                            </entry>
+                            <entry>
 <key>s3</key>
 <value>
     <name>s3</name>
@@ -43039,6 +43030,10 @@ ${filename:startsWith('sch_safety')}
 <value>${source:startsWith('abs')}</value>
                             </entry>
                             <entry>
+<key>local</key>
+<value>${source:startsWith('local')}</value>
+                            </entry>
+                            <entry>
 <key>s3</key>
 <value>${source:startsWith('s3')}</value>
                             </entry>
@@ -43053,6 +43048,10 @@ ${filename:startsWith('sch_safety')}
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>abs</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>local</name>
                     </relationships>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
@@ -54949,7 +54948,7 @@ file: ${filename} contain null/zero  in latitude or longitude or null in school 
                             </entry>
                             <entry>
 <key>blob</key>
-<value>${azure.blobname}</value>
+<value>${azure.blobname:isEmpty():ifElse('${filename}','${azure.blobname}')}</value>
                             </entry>
                             <entry>
 <key>proxy-configuration-service</key>
@@ -56194,7 +56193,7 @@ or(${filename:startsWith('diksha_tpd_api')})
 <key>diksha_tpd_emission</key>
 <value>${filename:startsWith('diksha/diksha_tpd'):
 or(${filename:startsWith('diksha_tpd')}):and(${filename:startsWith('diksha/diksha_tpd_api'):not()}):
-and(${filename:startsWith('diksha_tpd_api'):not()})}</value>
+and(${filename:startsWith('diksha_tpd_api'):or(${filename:contains('diksha_tpd_mapping')}):not()})}</value>
                             </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
@@ -76326,6 +76325,12 @@ WHERE ff_uuid = '${source.uuid}';</value>
     <name>ff_uuid</name>
 </value>
                             </entry>
+                            <entry>
+<key>source</key>
+<value>
+    <name>source</name>
+</value>
+                            </entry>
                         </descriptors>
                         <executionNode>ALL</executionNode>
                         <lossTolerant>false</lossTolerant>
@@ -76352,6 +76357,10 @@ WHERE ff_uuid = '${source.uuid}';</value>
                             <entry>
 <key>ff_uuid</key>
 <value>${uuid}</value>
+                            </entry>
+                            <entry>
+<key>source</key>
+<value>#{data_storage_type}</value>
                             </entry>
                         </properties>
                         <runDurationMillis>0</runDurationMillis>
@@ -77192,7 +77201,7 @@ ${query_type:startsWith('data_replay_pat'):ifElse('data_replay/pat_meta.json','N
                             </entry>
                             <entry>
 <key>blob</key>
-<value>${azure.blobname}</value>
+<value>${azure.blobname:isEmpty():ifElse('${emission_filename}','${azure.blobname}')}</value>
                             </entry>
                             <entry>
 <key>proxy-configuration-service</key>
@@ -77847,5 +77856,5 @@ ${query_type:startsWith('tch_att_raw_school'):ifElse("teacher_attendance/raw/tea
             <variables/>
         </processGroups>
     </snippet>
-    <timestamp>11/11/2021 19:27:24 IST</timestamp>
+    <timestamp>11/12/2021 20:02:09 IST</timestamp>
 </template>
