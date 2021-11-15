@@ -6412,7 +6412,7 @@
                             </value>
                         </entry>
                     </descriptors>
-                    <name>cQube_abs_stud_att</name>
+                    <name>cQube_azure_stud_att</name>
                     <persistsState>false</persistsState>
                     <properties>
                         <entry>
@@ -8397,7 +8397,7 @@ overall category vs Management</label>
                         <y>-1888.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -20860,7 +20860,7 @@ ${query_type:startsWith('stud_att_management_category_school_by_month_year')})})
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -20902,7 +20902,7 @@ ${query_type:startsWith('stud_att_management_category_school_by_month_year')})})
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>

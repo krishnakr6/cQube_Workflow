@@ -2339,6 +2339,37 @@
                     <zIndex>0</zIndex>
                 </connections>
                 <connections>
+                    <id>3482daee-0a3b-3d92-0000-000000000000</id>
+                    <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>4024.0</x>
+                        <y>-568.0</y>
+                    </bends>
+                    <destination>
+                        <groupId>bc58a011-18ef-303c-0000-000000000000</groupId>
+                        <id>039b4f3b-1616-345a-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>0</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>diksha_line_chart_etb</selectedRelationships>
+                    <selectedRelationships>diksha_map_etb</selectedRelationships>
+                    <selectedRelationships>diksha_map_tpd</selectedRelationships>
+                    <source>
+                        <groupId>bc58a011-18ef-303c-0000-000000000000</groupId>
+                        <id>9ca9c575-8e6c-374c-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
                     <id>34a5124d-c6cc-3170-0000-000000000000</id>
                     <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>4 GB</backPressureDataSizeThreshold>
@@ -5943,7 +5974,7 @@
                     <backPressureObjectThreshold>10000</backPressureObjectThreshold>
                     <destination>
                         <groupId>bc58a011-18ef-303c-0000-000000000000</groupId>
-                        <id>eaeee02d-5355-3997-0000-000000000000</id>
+                        <id>9ca9c575-8e6c-374c-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </destination>
                     <flowFileExpiration>0 sec</flowFileExpiration>
@@ -7573,6 +7604,31 @@
                     <source>
                         <groupId>bc58a011-18ef-303c-0000-000000000000</groupId>
                         <id>01ad5eab-9547-3929-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>b0f0b9f0-1ea6-30db-0000-000000000000</id>
+                    <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>bc58a011-18ef-303c-0000-000000000000</groupId>
+                        <id>eaeee02d-5355-3997-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>unmatched</selectedRelationships>
+                    <source>
+                        <groupId>bc58a011-18ef-303c-0000-000000000000</groupId>
+                        <id>9ca9c575-8e6c-374c-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
@@ -12486,7 +12542,7 @@
                             </value>
                         </entry>
                     </descriptors>
-                    <name>cQube_abs_diksha</name>
+                    <name>cQube_azure_diksha</name>
                     <persistsState>false</persistsState>
                     <properties>
                         <entry>
@@ -13373,7 +13429,7 @@ GET - summary rollup</label>
                         <y>-8680.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -14225,8 +14281,8 @@ same/mirror data validation</label>
                     <id>b691fe20-a3dc-3fa2-0000-000000000000</id>
                     <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
                     <position>
-                        <x>3896.0</x>
-                        <y>-880.0</y>
+                        <x>3392.0</x>
+                        <y>-856.0</y>
                     </position>
                     <height>40.0</height>
                     <label>Partition by  district_id,type and time_range</label>
@@ -14416,8 +14472,8 @@ Check  API request already exist for the provided date range.</label>
                     <id>cb9815ea-a9e4-38fd-0000-000000000000</id>
                     <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
                     <position>
-                        <x>3248.0</x>
-                        <y>-544.0</y>
+                        <x>3128.0</x>
+                        <y>-536.0</y>
                     </position>
                     <height>40.0</height>
                     <label>Partition by  block_id</label>
@@ -14555,7 +14611,7 @@ Check  API request already exist for the provided date range.</label>
                         <y>-9056.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -14722,7 +14778,7 @@ diksha_api_summary_roll_up table </label>
                         <y>-8624.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -15112,8 +15168,8 @@ diksha_api_summary_roll_up table </label>
                     <id>01ad5eab-9547-3929-0000-000000000000</id>
                     <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
                     <position>
-                        <x>3328.0</x>
-                        <y>-824.0</y>
+                        <x>2896.0</x>
+                        <y>-800.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -15940,8 +15996,11 @@ ${query_type:startsWith('diksha_tpd_r2_school_last_30_days'):ifElse(#{diksha_tpd
 ${query_type:startsWith('diksha_tpd_r2_school_overall'):ifElse(#{diksha_tpd_school_r2_jolt},
 ${query_type:startsWith('diksha_stack_bar_raw'):or(
 ${query_type:startsWith('diksha_table_raw'):or(
-${query_type:startsWith('diksha_tpd_r2_raw')})}):ifElse(#{diksha_raw_jolt_spec},'None')} 
- )} )} )} )} )} )} )} )} )} )} )} )} )} )} )} )} )}  )} )} )} )} )} )} )} )})}</value>
+${query_type:startsWith('diksha_tpd_r2_raw')})}):ifElse(#{diksha_raw_jolt_spec},
+${query_type:startsWith('diksha_map_etb_state'):ifElse(#{diksha_map_state_etb_jolt_spec},
+${query_type:startsWith('diksha_map_tpd_state'):ifElse(#{diksha_map_state_tpd_jolt_spec},
+${query_type:startsWith('diksha_line_etb_state'):ifElse(#{diksha_line_state_etb_jolt_spec},'None')} 
+ )} )} )} )} )} )} )} )} )} )} )} )} )} )} )} )} )}  )} )} )} )} )} )} )} )})})})})}</value>
                             </entry>
                             <entry>
 <key>Transform Cache Size</key>
@@ -24630,7 +24689,7 @@ file: ${filename} null values are not found.</value>
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -24672,7 +24731,7 @@ file: ${filename} null values are not found.</value>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
@@ -25330,7 +25389,7 @@ where ff_uuid= '${files_uuid}'</value>
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -25372,7 +25431,7 @@ where ff_uuid= '${files_uuid}'</value>
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
@@ -26799,7 +26858,7 @@ ${filename:startsWith('diksha_tpd'):ifElse("SELECT ff_uuid,collection_id,collect
                     <id>51cddb87-1622-3776-0000-000000000000</id>
                     <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
                     <position>
-                        <x>3328.0</x>
+                        <x>2896.0</x>
                         <y>-496.0</y>
                     </position>
                     <bundle>
@@ -37471,6 +37530,96 @@ WHERE ff_uuid = '${source.uuid}';</value>
                     <type>org.apache.nifi.processors.standard.PutSQL</type>
                 </processors>
                 <processors>
+                    <id>9ca9c575-8e6c-374c-0000-000000000000</id>
+                    <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>4016.0</x>
+                        <y>-816.0</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.12.1</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Routing Strategy</key>
+<value>
+    <name>Routing Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>diksha_line_chart_etb</key>
+<value>
+    <name>diksha_line_chart_etb</name>
+</value>
+                            </entry>
+                            <entry>
+<key>diksha_map_etb</key>
+<value>
+    <name>diksha_map_etb</name>
+</value>
+                            </entry>
+                            <entry>
+<key>diksha_map_tpd</key>
+<value>
+    <name>diksha_map_tpd</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Routing Strategy</key>
+<value>Route to Property name</value>
+                            </entry>
+                            <entry>
+<key>diksha_line_chart_etb</key>
+<value>${query_type:startsWith('diksha_line_etb_state')}</value>
+                            </entry>
+                            <entry>
+<key>diksha_map_etb</key>
+<value>${query_type:startsWith('diksha_map_etb_state')}</value>
+                            </entry>
+                            <entry>
+<key>diksha_map_tpd</key>
+<value>${query_type:startsWith('diksha_map_tpd_state')}</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>25</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>diksha_route_by_query_after_query_exec</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>diksha_line_chart_etb</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>diksha_map_etb</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>diksha_map_tpd</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>unmatched</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
+                </processors>
+                <processors>
                     <id>9de79bdf-1765-3a1e-0000-000000000000</id>
                     <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
                     <position>
@@ -46623,7 +46772,7 @@ where cqube_process_status ='SUCCESS' and date between '${five_days_before}' and
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -46665,7 +46814,7 @@ where cqube_process_status ='SUCCESS' and date between '${five_days_before}' and
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
@@ -48820,8 +48969,8 @@ Mirror data validation of file:${filename} completed and deleted the mirror data
                     <id>eaeee02d-5355-3997-0000-000000000000</id>
                     <parentGroupId>bc58a011-18ef-303c-0000-000000000000</parentGroupId>
                     <position>
-                        <x>3936.0</x>
-                        <y>-832.0</y>
+                        <x>3488.0</x>
+                        <y>-808.0</y>
                     </position>
                     <bundle>
                         <artifact>nifi-standard-nar</artifact>
@@ -51081,5 +51230,5 @@ ${execution.error}</value>
             <variables/>
         </processGroups>
     </snippet>
-    <timestamp>11/12/2021 19:59:59 IST</timestamp>
+    <timestamp>11/15/2021 12:58:17 IST</timestamp>
 </template>

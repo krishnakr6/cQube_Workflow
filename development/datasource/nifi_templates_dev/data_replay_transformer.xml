@@ -2270,7 +2270,7 @@
                             </value>
                         </entry>
                     </descriptors>
-                    <name>cQube_abs_data_replay</name>
+                    <name>cQube_azure_data_replay</name>
                     <persistsState>false</persistsState>
                     <properties>
                         <entry>
@@ -2347,7 +2347,7 @@
                         <y>-1528.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -4154,7 +4154,7 @@ from data_replay_meta where cqube_process_status ='IN_PROGRESS' group by filenam
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -4196,7 +4196,7 @@ from data_replay_meta where cqube_process_status ='IN_PROGRESS' group by filenam
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>

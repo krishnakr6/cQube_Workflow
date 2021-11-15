@@ -8471,7 +8471,7 @@
                             </value>
                         </entry>
                     </descriptors>
-                    <name>cQube_abs_pat</name>
+                    <name>cQube_azure_pat</name>
                     <persistsState>false</persistsState>
                     <properties>
                         <entry>
@@ -9939,7 +9939,7 @@ all category vs management</label>
                         <y>-232.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -25026,7 +25026,7 @@ where ff_uuid= '${zip_identifier}'
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -25068,7 +25068,7 @@ where ff_uuid= '${zip_identifier}'
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>

@@ -4969,7 +4969,7 @@
                             </value>
                         </entry>
                     </descriptors>
-                    <name>cQube_abs_crc</name>
+                    <name>cQube_azure_crc</name>
                     <persistsState>false</persistsState>
                     <properties>
                         <entry>
@@ -7226,7 +7226,7 @@ all category vs management</label>
                         <y>-1344.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -8711,7 +8711,7 @@ ${filename:startsWith('inspection_master'):ifElse(#{crc_inspection_temp_filter_q
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -8753,7 +8753,7 @@ ${filename:startsWith('inspection_master'):ifElse(#{crc_inspection_temp_filter_q
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>

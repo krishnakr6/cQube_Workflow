@@ -4880,7 +4880,7 @@
                             </value>
                         </entry>
                     </descriptors>
-                    <name>cQube_abs_static</name>
+                    <name>cQube_azure_static</name>
                     <persistsState>false</persistsState>
                     <properties>
                         <entry>
@@ -6434,7 +6434,7 @@ Loading</label>
                         <y>48.0</y>
                     </position>
                     <height>168.0</height>
-                    <label>ABS List Blob</label>
+                    <label>azure List Blob</label>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -14657,7 +14657,7 @@ ${static_datasource:toLower():equals('udise'):and(${filename:startsWith('school_
                             </entry>
                             <entry>
 <key>container-name</key>
-<value>#{abs_emission_container}</value>
+<value>#{azure_emission_container}</value>
                             </entry>
                             <entry>
 <key>storage-credentials-service</key>
@@ -14699,7 +14699,7 @@ ${static_datasource:toLower():equals('udise'):and(${filename:startsWith('school_
                         <yieldDuration>1 sec</yieldDuration>
                     </config>
                     <executionNodeRestricted>true</executionNodeRestricted>
-                    <name>abs_list_emission</name>
+                    <name>azure_list_emission</name>
                     <relationships>
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
